@@ -353,7 +353,7 @@ a {
 }
 .bottom-container {
     height: 100vh;
-    background-color: #eef;
+    /* background-color: #eef; */
 }
 
 .bottom-container .bottom-reviews {
@@ -482,10 +482,11 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
-
-
+    .main-container {
+        width: 105vw;
+    }
     .navbar {
-        width: 110vw;
+        width: 100vw;
     }
     .navbar .shop-logo {
         transform:  scale(0.5);
@@ -493,7 +494,7 @@ a {
     }
     .navbar .shop-icon {
         transform:  scale(0.5);
-        right: 10%;
+        right: 5%;
         bottom: 3%;
     }
     .navbar nav {
@@ -501,7 +502,7 @@ a {
     }
     .navbar nav ul li {
         margin: 0px 3px;
-        right: 20%;
+        right: 10%;
 
     }
     .navbar nav ul li a {
@@ -598,6 +599,7 @@ a {
 
     .exclusive-content-container {
         height: 50vh;
+        width: 105vw;
     }
 
 
@@ -629,6 +631,7 @@ a {
     }
     .bottom-container {
         height: 70vh;
+        width: 105vw;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -643,7 +646,7 @@ a {
         justify-content: space-between;
         align-content: center;
         top: .2vh;
-        width: 80%;
+        width: 77%;
         height: 0vh;
         margin: 0 auto;
         margin-left: 26px;
